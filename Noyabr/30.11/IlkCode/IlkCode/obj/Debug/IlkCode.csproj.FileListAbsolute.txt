@@ -1,0 +1,7 @@
+C:\Users\Valeh\Desktop\Lessons\Noyabr\30.11\IlkCode\IlkCode\bin\Debug\IlkCode.exe.config
+C:\Users\Valeh\Desktop\Lessons\Noyabr\30.11\IlkCode\IlkCode\bin\Debug\IlkCode.exe
+C:\Users\Valeh\Desktop\Lessons\Noyabr\30.11\IlkCode\IlkCode\bin\Debug\IlkCode.pdb
+C:\Users\Valeh\Desktop\Lessons\Noyabr\30.11\IlkCode\IlkCode\obj\Debug\IlkCode.csprojAssemblyReference.cache
+C:\Users\Valeh\Desktop\Lessons\Noyabr\30.11\IlkCode\IlkCode\obj\Debug\IlkCode.csproj.CoreCompileInputs.cache
+C:\Users\Valeh\Desktop\Lessons\Noyabr\30.11\IlkCode\IlkCode\obj\Debug\IlkCode.exe
+C:\Users\Valeh\Desktop\Lessons\Noyabr\30.11\IlkCode\IlkCode\obj\Debug\IlkCode.pdb

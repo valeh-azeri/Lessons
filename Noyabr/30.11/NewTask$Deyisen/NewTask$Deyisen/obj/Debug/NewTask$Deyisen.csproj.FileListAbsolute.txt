@@ -1,0 +1,7 @@
+C:\Users\Valeh\Desktop\Lessons\Noyabr\30.11\NewTask$Deyisen\NewTask$Deyisen\bin\Debug\NewTask$Deyisen.exe.config
+C:\Users\Valeh\Desktop\Lessons\Noyabr\30.11\NewTask$Deyisen\NewTask$Deyisen\bin\Debug\NewTask$Deyisen.exe
+C:\Users\Valeh\Desktop\Lessons\Noyabr\30.11\NewTask$Deyisen\NewTask$Deyisen\bin\Debug\NewTask$Deyisen.pdb
+C:\Users\Valeh\Desktop\Lessons\Noyabr\30.11\NewTask$Deyisen\NewTask$Deyisen\obj\Debug\NewTask$Deyisen.csprojAssemblyReference.cache
+C:\Users\Valeh\Desktop\Lessons\Noyabr\30.11\NewTask$Deyisen\NewTask$Deyisen\obj\Debug\NewTask$Deyisen.csproj.CoreCompileInputs.cache
+C:\Users\Valeh\Desktop\Lessons\Noyabr\30.11\NewTask$Deyisen\NewTask$Deyisen\obj\Debug\NewTask$Deyisen.exe
+C:\Users\Valeh\Desktop\Lessons\Noyabr\30.11\NewTask$Deyisen\NewTask$Deyisen\obj\Debug\NewTask$Deyisen.pdb
