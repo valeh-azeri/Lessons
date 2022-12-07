@@ -14,7 +14,7 @@ namespace Homework4
             /*int, uint, long və ya ulongdan floata və long və ya ulongdan double-a çevrilmələr dəqiqliyin i
                 tkisinə səbəb ola bilər. Heç bir məlumat növü char tipinə çevrilməmişdir.*/
                
-            //verilmi. tiplərə  ən uyğun şevirilmə string tipi  ola   bilər
+            //verilmi. tiplərə  ən uyğun şevirilmə string tipi  ola   bilər bir də  object  tipinə çevirə bilərik
             #region
         }
     }
