@@ -37,7 +37,7 @@ namespace Max_and_Min_rate_of_Values
 
 
             Console.WriteLine("Char Max value : " + char.MinValue);
-            Console.WriteLine("Char Min value : " + char.MinValue);
+            Console.WriteLine("Char Min value : " + char.MaxValue);
             Console.WriteLine();
 
             //yüksək dəqiqlik tələb edən rəqəmlərdə  istifadə olunur- sonunda  d yazılır. Məcburidir. 10 dalıqları da saxlayırıq
