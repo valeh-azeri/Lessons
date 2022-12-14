@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{2DC43BEF-637C-418D-AA53-1D81BCE075BE}</ProjectGuid>
+    <ProjectGuid>{E2989E92-E86D-48C7-9055-7D6C5855B29E}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Homwerok1</RootNamespace>
-    <AssemblyName>Homwerok1</AssemblyName>
+    <RootNamespace>Learning_DateTime_Functions</RootNamespace>
+    <AssemblyName>Learning_DateTime_Functions</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
