@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework4", "Homework4\Home
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Learning_DateTime_Functions", "Learning_DateTime_Functions\Learning_DateTime_Functions.csproj", "{E2989E92-E86D-48C7-9055-7D6C5855B29E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskİnClass", "TaskİnClass\TaskİnClass.csproj", "{2E054879-30F8-4ED5-925F-4F7D3E99E48A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskInLesson2", "TaskInLesson2\TaskInLesson2.csproj", "{4D00273C-8CC6-4A71-9366-619566391A69}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +49,14 @@ Global
 		{E2989E92-E86D-48C7-9055-7D6C5855B29E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E2989E92-E86D-48C7-9055-7D6C5855B29E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E2989E92-E86D-48C7-9055-7D6C5855B29E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E054879-30F8-4ED5-925F-4F7D3E99E48A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E054879-30F8-4ED5-925F-4F7D3E99E48A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E054879-30F8-4ED5-925F-4F7D3E99E48A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E054879-30F8-4ED5-925F-4F7D3E99E48A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D00273C-8CC6-4A71-9366-619566391A69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D00273C-8CC6-4A71-9366-619566391A69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D00273C-8CC6-4A71-9366-619566391A69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D00273C-8CC6-4A71-9366-619566391A69}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -17,8 +17,6 @@ namespace Homwork1
              5 dənə dəyişəni Explicit Conversion,
              5 dənə dəyişəni Helper Class Conversion vasitəsilə convert edin. Dəyişən tiplərini və dəyərlərini özünüz seçin.
              
-             
-             
              */
 
             #region Homework 1

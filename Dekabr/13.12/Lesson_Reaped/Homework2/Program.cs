@@ -44,7 +44,8 @@ namespace Homework2
 
             Console.WriteLine("Doğum tarixinizi  girin (gün.ay.il)");
             DateTime birth = DateTime.Parse(Console.ReadLine());
-
+            string birth1 = birth.ToString("MM-dd-yyyy");
+            //doğum tarixini necə girirsiniz girin  eyni  - li formata  döndürəcək
             Console.WriteLine("Yaşadığınız ölkəni girin :");
             string country = Console.ReadLine();
             Console.WriteLine("Yaşadığınız şəhəri girin :");
@@ -64,7 +65,7 @@ namespace Homework2
             Console.WriteLine("Adınız : "+name);
             Console.WriteLine("Soyadınız : " + surname);
             Console.WriteLine("Cinsiyyətiniz : " + sex);
-            Console.WriteLine("Doğum tarixiniz : " + birth);
+            Console.WriteLine("Doğum tarixiniz : " + birth1);
             Console.WriteLine("Yaşadığınız ölkə  : " + country);
             Console.WriteLine("Yaşadığınız şəhər : " + city);
             Console.WriteLine("Boyunuz : " + heigth1);
