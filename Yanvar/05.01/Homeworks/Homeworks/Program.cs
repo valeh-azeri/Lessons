@@ -16,23 +16,23 @@ namespace Homeworks
             Console.InputEncoding = Encoding.Unicode;
             Console.OutputEncoding = Encoding.Unicode;
 
-            int digits, sum=0;
+            int digits=0, sum=0;
             Console.WriteLine("Bu app sizin daxil etdiyiniz rəqəmləri toplayacaq.");
             Console.WriteLine("__________________________________________________");
             Console.WriteLine();
             Console.Write("Xahiş edirəm bir  rəqəm daxil edin :");
             digits = Convert.ToInt32(Console.ReadLine());
-
-            while (digits>0)
+            sum += digits;
+            while (digits>=0)
             {
-                sum += digits;
+                
                 Console.Write("Xahiş edirəm bir  rəqəm daxil edin :");
                 digits = Convert.ToInt32(Console.ReadLine());
                 sum += digits;
                 Console.WriteLine("Girdiyiniz  rəqəmlərin toplamı =" + sum);
 
-            } 
-
+            }
+            
 
 
         }

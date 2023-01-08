@@ -16,13 +16,15 @@ namespace Homeworks_4
             Console.OutputEncoding = Encoding.Unicode;
 
             Console.WriteLine("Geri sayım üçün  bir rəqəm girin ");
-            var num = Convert.ToInt32(Console.ReadLine());
+            int num = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine();
-            for (var i = num; i >0; i--)
-            {
-                Console.Write(i+"\t");
-                
-            }
+
+                for (int i = num; i >=0; i--)
+                {
+                    Console.Write(i + "\t");
+
+                }
+            
             Console.ReadLine();
         }
     }
