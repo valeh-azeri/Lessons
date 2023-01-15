@@ -18,7 +18,7 @@ namespace Faktorial
             for (int i = 1; i <=girilenSay; i++)
             {
                 fakt = fakt * i;
-                Console.WriteLine(i + "!=" + fakt);
+                Console.WriteLine((i+1) + "!=" +fakt+"*"+(i+1)+"="+ fakt*(i+1));
 
             }
 

@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homeworks 4", "Homeworks 4\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Faktorial", "Faktorial\Faktorial.csproj", "{F3A7F07D-7A99-4C5F-9A9F-D9B50A70C687}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{2A7BC7BC-48E7-461C-B682-7C576BCB02E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassTastk2", "ClassTastk2\ClassTastk2.csproj", "{9EAFE4FE-A17B-4121-8AFD-E8647229056F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{F3A7F07D-7A99-4C5F-9A9F-D9B50A70C687}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F3A7F07D-7A99-4C5F-9A9F-D9B50A70C687}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F3A7F07D-7A99-4C5F-9A9F-D9B50A70C687}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A7BC7BC-48E7-461C-B682-7C576BCB02E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A7BC7BC-48E7-461C-B682-7C576BCB02E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A7BC7BC-48E7-461C-B682-7C576BCB02E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A7BC7BC-48E7-461C-B682-7C576BCB02E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EAFE4FE-A17B-4121-8AFD-E8647229056F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EAFE4FE-A17B-4121-8AFD-E8647229056F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EAFE4FE-A17B-4121-8AFD-E8647229056F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EAFE4FE-A17B-4121-8AFD-E8647229056F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

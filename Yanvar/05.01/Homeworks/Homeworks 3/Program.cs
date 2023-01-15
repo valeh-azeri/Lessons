@@ -31,7 +31,7 @@ namespace Homeworks_3
 
             Random rand = new Random();
             generatedNumber = rand.Next(0, gameMaxNumber);
-            //Console.WriteLine(generatedNumber);
+            Console.WriteLine(generatedNumber);
             Console.WriteLine("Oyun Başladı !!!");
             Console.Write(counter+".Təxmininizi girin :");
             userGestNumber = Convert.ToInt32(Console.ReadLine());
@@ -53,12 +53,9 @@ namespace Homeworks_3
                 
             }
             Console.WriteLine("Təbrik edirik.Tutulan sayını "+counter+" dəfədə tapdınız");
+            Console.ReadLine();
 
 
-            while (true)
-            {
-
-            }
 
         }
     }
