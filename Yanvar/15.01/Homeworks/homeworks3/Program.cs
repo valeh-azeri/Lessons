@@ -18,13 +18,13 @@ namespace homeworks3
             Console.OutputEncoding = Encoding.Unicode;
 
             Random rand = new Random();
-            long[] numArr = new long[100];
+            int[] numArr = new int[100];
             long result = 0;
             
 
             for (int i = 0; i < numArr.Length; i++)
             {
-                long numbersRand = rand.Next(100000);
+                int numbersRand = rand.Next(100000);
                 numArr[i] = numbersRand;
                 Console.Write(numArr[i]+"\t");
                 result += numArr[i];
