@@ -18,12 +18,17 @@ namespace Faktorial
             for (int i = 1; i <=girilenSay; i++)
             {
                 fakt = fakt * i;
-                Console.WriteLine((i+1) + "!=" +fakt+"*"+(i+1)+"="+ fakt*(i+1));
+                
 
             }
 
-            Console.WriteLine("_________________________");
-            Console.WriteLine(girilenSay+"!=" + fakt);
+            for (int i = 1; i <= girilenSay; i++)
+            {
+                Console.Write(i);
+                Console.Write("*");
+            }
+            
+            Console.WriteLine("=" + fakt);
             Console.ReadLine();
             
         }

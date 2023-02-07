@@ -10,6 +10,7 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
+            Console.OutputEncoding = Encoding.Unicode;
             Console.WriteLine("Sinifdə neçə  tələbə var");
             short studentCount = Convert.ToInt16(Console.ReadLine());
 

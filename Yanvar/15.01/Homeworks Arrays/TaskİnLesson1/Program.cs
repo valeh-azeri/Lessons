@@ -28,21 +28,22 @@ namespace TaskİnLesson1
                 switch (choise)
                 {
                     case "Menyu": {
+                            
                             Console.WriteLine("1. Element Elave et");
                             Console.WriteLine("2. Elementleri goste");
                             Console.WriteLine("3. Element axtar");
                             Console.WriteLine("4. Element editle");
                             Console.WriteLine("5. Element sil");
                             Console.WriteLine("6. Exit");
-
                             Console.WriteLine("Seçiminizi edin :");
                             choise = Console.ReadLine();
                         } break;
                     case "1": 
                         {
-                            Console.WriteLine("Zəhmət olmasa daxil etmək istədiyiniz elementi daxil edin :");
+                            Console.WriteLine("Zəhmət olmasa daxil etmək istədiyiniz elementi yazın :");
                             arrList.Add(Console.ReadLine());
                             Console.WriteLine("Element əlavə olundu");
+                            
                             goto case "Menyu";
                         }
 
@@ -61,9 +62,9 @@ namespace TaskİnLesson1
                         {
                             Console.Write("Axtaracağınız elementi daxil edin ");
                             string arrElemen = Console.ReadLine();
-                            if (arrList.IndexOf(arrElemen)>0) ;
+                            if (arrList.IndexOf(arrElemen)>0) 
                             {
-                                Console.WriteLine("Element tapıldı:")
+                                Console.WriteLine("Element tapıldı:");
                             }
                         }
                         break;

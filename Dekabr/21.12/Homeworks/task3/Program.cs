@@ -17,7 +17,7 @@ namespace task3
             string key=Console.ReadLine().ToLower();
             while (key!="exit")
             {
-                Console.WriteLine("Aşar  söz deyil bir  de girin :");
+                Console.WriteLine("Açar  söz deyil bir  de girin :");
                 key = Console.ReadLine();
             }            
             Console.ReadLine();
