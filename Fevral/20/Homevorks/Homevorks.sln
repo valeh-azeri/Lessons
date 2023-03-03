@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.33026.149
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homevorks", "Homevorks\Homevorks.csproj", "{19CB5C62-57C3-40DE-B6F5-E586B37B36E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework_Main", "Homework_Main\Homework_Main.csproj", "{B5EB1595-82B6-4A66-9C91-E59C2F17CB6D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{19CB5C62-57C3-40DE-B6F5-E586B37B36E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19CB5C62-57C3-40DE-B6F5-E586B37B36E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19CB5C62-57C3-40DE-B6F5-E586B37B36E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19CB5C62-57C3-40DE-B6F5-E586B37B36E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5EB1595-82B6-4A66-9C91-E59C2F17CB6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5EB1595-82B6-4A66-9C91-E59C2F17CB6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5EB1595-82B6-4A66-9C91-E59C2F17CB6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5EB1595-82B6-4A66-9C91-E59C2F17CB6D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DC8FD40D-3BDC-42A8-B33E-5BFCAA352F05}
+	EndGlobalSection
+EndGlobal

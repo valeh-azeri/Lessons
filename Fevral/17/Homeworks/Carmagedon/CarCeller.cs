@@ -70,6 +70,7 @@ namespace Carmagedon
 
         public int price(int salePrice, int maxDiscountAmount)
         {
+
             int price = SalePrice - MaxDiscountAmount;
             Price = price;
             return Price;
