@@ -47,6 +47,7 @@
     <Compile Include="City.cs" />
     <Compile Include="Contact.cs" />
     <Compile Include="Country.cs" />
+    <Compile Include="Customers.cs" />
     <Compile Include="Order.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
