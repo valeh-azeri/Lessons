@@ -34,6 +34,9 @@ namespace Homework2
             5. Rəngi Red, Black olmayan, mühərrik həcmi 2000-4000 arasında olan, sürətlər qutusu Robot olmayan, buraxılış ili 2010-dan köhnə olmayan.
             6. Ya markası Lexus olub, qiyməti 30.000-ə qədər olan ya da markası Mercedes olub qiyməti 45.000-ə qədər olan.
 */
+
+            //1-ci sorgu
+            var firstQuery = DatabaseCar.CarsTable.Where(m => m.CarMark == "Mercedes");
         }
     }
 }

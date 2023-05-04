@@ -45,6 +45,8 @@
   <ItemGroup>
     <Compile Include="Car.cs" />
     <Compile Include="DatabaseCar.cs" />
+    <Compile Include="Enums\ColorEnum.cs" />
+    <Compile Include="Enums\VelcityBoxEnum.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
