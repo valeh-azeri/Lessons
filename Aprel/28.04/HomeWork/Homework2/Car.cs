@@ -14,19 +14,15 @@ namespace Homework2
         public int CarID { get; set; }
         public string CarMark { get; set; }
         public string CarModel { get; set; }
-        public DateTime CarYear { get; set; }
+        public int CarYear { get; set; }
         public string SellerCity { get; set; }
         public EnumColor Color { get; set; }
         public string Engine { get; set; }
-        public string  EngineValue { get; set; }
+        public int  EngineValue { get; set; }
         public string  EngineForce { get; set; }
         public int  Kilometr { get; set; }
         public EnumVelcityBox  VelocityBox { get; set; }
         public int  Price { get; set; }
-
-
-
-
 
 
 
