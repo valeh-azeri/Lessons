@@ -60,19 +60,19 @@ namespace Homework2
             #region Show Students
             string pathStudent = @"C:\\Homework1\\Students.xml";
             XDocument docStudent = XDocument.Load(pathStudent);
-            List<XElement> readStudent = docStudent.Descendants("Students").ToList();
+            List<XElement> readStudent = docStudent.Descendants("Student").ToList();
             List<Student> students = new List<Student>();
 
             foreach (var item in readStudent)
             {
-                Student student = new Student()
+                Student student = new Student();
                 {
-                    Id = Guid.Parse(item.Element("Id").Value),
-                    Name = item.Element("Name").Value,
-                    Surname = item.Element("Surname").Value,
-                    Email = item.Element("Email").Value,
-                    PhoneNumbe = item.Element("PhoneNumber").Value
-                };
+                    student.Id = Guid.Parse(item.Element("Id").Value);
+                    student.Name = item.Element("Name").Value;
+                    student.Surname = item.Element("Surname").Value;
+                    student.Email = item.Element("Email").Value;
+                    student.PhoneNumbe = item.Element("PhoneNumber").Value;
+                }
 
                 students.Add(student);
             }

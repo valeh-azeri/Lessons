@@ -33,12 +33,20 @@ namespace Homework2
             3. Kilometrajı 0 olan və Modelində "ml" sözü olan
             4. Sürətlər qutusu avtomatik olan və qiyməti 15.000-17.500 arasında olan
             5. Rəngi Red, Black olmayan, mühərrik həcmi 2000-4000 arasında olan, sürətlər qutusu Robot olmayan, buraxılış ili 2010-dan köhnə olmayan.
+<<<<<<< HEAD
             6. Ya markası Lexus olub, qiyməti 30.000-ə qədər olan ya da markası Mercedes olub qiyməti 45.000-ə qədər olan.*/
 
 
            var query1 = DatabaseCar.CarsTable.Where(m => m.EngineValue <= 4200 && m.SellerCity == "Baki");
             var query2 = DatabaseCar.CarsTable.Where(x => x.SellerCity != "Baki" && x.CarYear >= 2015 && x.CarYear <= 2020); 
            
+=======
+            6. Ya markası Lexus olub, qiyməti 30.000-ə qədər olan ya da markası Mercedes olub qiyməti 45.000-ə qədər olan.
+*/
+
+            //1-ci sorgu
+            var firstQuery = DatabaseCar.CarsTable.Where(m => m.CarMark == "Mercedes");
+>>>>>>> e821d3236604a14711d1ff940f0e31d087120bf5
         }
     }
 }

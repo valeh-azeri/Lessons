@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Homework2.Enums;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,6 +9,7 @@ namespace Homework2
 {
     public static class DatabaseCar
     {
+<<<<<<< HEAD
         public static List<Car> CarsTable = new List<Car> {
         new Car()
         {
@@ -71,8 +73,58 @@ namespace Homework2
             VelocityBox=EnumVelcityBox.TipTronic,
             Price=75000
         },
+=======
+        public static List<Car> CarsTable = new List<Car>() {
+            new Car()
+            {
+                CarID=1,
+                CarMark="MBW",
+                CarModel="IX37",
+                CarYear=new DateTime(1982,10,10),
+                SellerCity="Germany",
+                Color=ColorEnum.Black,
+                Engine="Benzin",
+                EngineValue="7000" ,
+                EngineForce="170FS",
+                Kilometr=15000,
+                VelocityBox=VelcityBoxEnum.Avtomtat,
+                Price=75000
+            },
 
+            new Car()
+            {
+                CarID=1,
+                CarMark="MBW",
+                CarModel="IX35",
+                CarYear=new DateTime(2000,10,10),
+                SellerCity="Chine",
+                Color=ColorEnum.Brown,
+                Engine="Disel",
+                EngineValue="5000" ,
+                EngineForce="150FS",
+                Kilometr=150000,
+                VelocityBox=VelcityBoxEnum.Mecanichal,
+                Price=75000
+            },
+>>>>>>> e821d3236604a14711d1ff940f0e31d087120bf5
+
+            new Car()
+            {
+                CarID=1,
+                CarMark="Lexus",
+                CarModel="GX460",
+                CarYear=new DateTime(2002,10,10),
+                SellerCity="Chine",
+                Color=ColorEnum.Brown,
+                Engine="Benzin",
+                EngineValue="5000" ,
+                EngineForce="250FS",
+                Kilometr=280000,
+                VelocityBox=VelcityBoxEnum.TipTronic,
+                Price=75000
+            }
         };
+<<<<<<< HEAD
         //1. Markası Mercedes olub, mühərrik həcmi 4200'dən az olan və ya bərabər olan, Bakıda satılan.
         public static List<Car> GetFiltrByLINQ(string mark, int engineValue, string sellerCity)
         {
@@ -81,5 +133,7 @@ namespace Homework2
         }
 
 
+=======
+>>>>>>> e821d3236604a14711d1ff940f0e31d087120bf5
     }
 }

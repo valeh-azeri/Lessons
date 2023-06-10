@@ -45,8 +45,13 @@
   <ItemGroup>
     <Compile Include="Car.cs" />
     <Compile Include="DatabaseCar.cs" />
+<<<<<<< HEAD
     <Compile Include="EnumColor.cs" />
     <Compile Include="EnumVelcityBox.cs" />
+=======
+    <Compile Include="Enums\ColorEnum.cs" />
+    <Compile Include="Enums\VelcityBoxEnum.cs" />
+>>>>>>> e821d3236604a14711d1ff940f0e31d087120bf5
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -15,7 +15,7 @@ namespace RequestToAPI
         {
             var client = new HttpClient();
 
-            client.BaseAddress=new Uri(" https://api.first.org/data/v1/countries");
+            client.BaseAddress=new Uri(" https://api.first.org/data/v1/");
            
             HttpResponseMessage response = client.GetAsync("countries").Result;
 
@@ -26,7 +26,7 @@ namespace RequestToAPI
             file.Close();
             File.WriteAllText(@"C:\\HomeAPI\\Api.json",getresponse);
             
-            //List<Xobject> data = JsonConvert.DeserializeObject<List<Xobject>>(getresponse);
+            Xobject data = JsonConvert.DeserializeObject<Xobject>(getresponse);
 
         }
     }

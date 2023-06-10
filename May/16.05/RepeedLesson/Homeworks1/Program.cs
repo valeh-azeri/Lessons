@@ -17,8 +17,10 @@ namespace Homeworks1
         {
             /*
               Homework 1:
-             FakeData'dan istifadə edib 3 XML faylı üzərində iş görəcəksiniz. Students, Teachers və Stuffs adında 3 XML faylına dinamik
-             olaraq məlumat əlavə edəcəksiniz. Proqramı run edəndə, hər faylın içinə 1000 nəfər insan məlumatı əlavə edilməlidir. Student,
+             FakeData'dan istifadə edib 3 XML faylı üzərində iş görəcəksiniz. Students, 
+             Teachers və Stuffs adında 3 XML faylına dinamik
+             olaraq məlumat əlavə edəcəksiniz. Proqramı run edəndə, hər faylın içinə 1000 nəfər insan məlumatı 
+             əlavə edilməlidir. Student,
              Teacher və Stuff property'lərini özünüz seçə bilərsiniz. Ancaq hər birində ən az 5 property olsun.
             */
             List<Teachers> teachers = new List<Teachers>();
