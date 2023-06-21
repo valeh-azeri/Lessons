@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using EduSys.API.Filters;
 using EduSys.Core.DTOs;
 using EduSys.Core.Models;
 using EduSys.Core.Services;
@@ -7,16 +8,18 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace EduSys.API.Controllers
 {
-    
+      
     public class ProductsController : CustomBaseController
     {
         private readonly IMapper _mapper;
-        private readonly IService<Product> _service;
+        private readonly IProductService _service;   
 
-        public ProductsController(IMapper mapper, IService<Product> service)
+        public ProductsController(IMapper mapper, IProductService service)
         {
             _mapper = mapper;
             _service = service;
+           
+
         }
 
         [HttpGet]
@@ -27,7 +30,7 @@ namespace EduSys.API.Controllers
 
             return CreateActionResult(CustomResponseDto<List<ProductDto>>.Success(200, pruductstDtos));
         }
-
+        [ServiceFilter(typeof(NotFoundFilter<Product>))]
         [HttpGet("{id}")]
         public async Task<IActionResult> GetById(int id)
         {
@@ -74,6 +77,10 @@ namespace EduSys.API.Controllers
           
             return CreateActionResult(CustomResponseDto<ProductDto>.Success(204));
         }
-
+        [HttpGet("[action]")]
+        public async Task<IActionResult> GetProductWithCategory()
+        {
+            return CreateActionResult(await _service.GetProductWithCategory());
+        }
     }
 }
