@@ -38,6 +38,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddScoped(typeof(NotFoundFilter<>));
+builder.Services.AddMemoryCache();  
 
 
 builder.Services.AddAutoMapper(typeof(MapProfile));

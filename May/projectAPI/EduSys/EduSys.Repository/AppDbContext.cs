@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using EduSys.Core.Models;
 using EduSys.Repository.Configurations;
@@ -53,6 +54,64 @@ namespace EduSys.Repository
                     ProductId = 3
                 }
                 );
+
+          
+    }
+        public override Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
+        {
+            foreach (var item in ChangeTracker.Entries())
+            {
+                if (item.Entity is BaseEntity entityReferance) 
+                {
+                    switch (item.State)
+                    {
+                      
+                        case EntityState.Modified:
+                            {
+                                entityReferance.CreateDate = DateTime.Now;
+                                break;
+                            }
+                        case EntityState.Added:
+                            {
+                                Entry(entityReferance).Property(x => x.CreateDate).IsModified = false;
+                                entityReferance.UpdateDate = DateTime.Now;  
+                            }
+                            break;
+                        default:
+                            break;
+                    }
+                }
+            }
+            return base.SaveChangesAsync(cancellationToken);
+        }
+
+        public override int SaveChanges()
+        {
+            foreach (var item in ChangeTracker.Entries())
+            {
+                if (item.Entity is BaseEntity entityReferance)
+                {
+                    switch (item.State)
+                    {
+
+                        case EntityState.Modified:
+                            {
+                                entityReferance.CreateDate = DateTime.Now;
+                                break;
+                            }
+                        case EntityState.Added:
+                            {
+                                Entry(entityReferance).Property(x => x.CreateDate).IsModified = false;
+                                entityReferance.UpdateDate = DateTime.Now;
+                            }
+                            break;
+                        default:
+                            break;
+                    }
+                }
+            }
+          
+            return base.SaveChanges();
         }
     }
 }

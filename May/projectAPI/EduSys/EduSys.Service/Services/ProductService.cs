@@ -24,9 +24,9 @@ namespace EduSys.Service.Services
             _productRepository = productRepository;
         }
 
-        public async Task<CustomResponseDto<List<ProductWithCategoryDto>>> GetProductWithCategory()
+        public async Task<CustomResponseDto<List<ProductWithCategoryDto>>> GetProductsWithCategory()
         {
-            var products = await _productRepository.GetProductWithCategory();
+            var products = await _productRepository.GetProductsWithCategory();
             var productsDto = _mapper.Map<List<ProductWithCategoryDto>>(products);
 
             return CustomResponseDto<List<ProductWithCategoryDto>>.Success(200, productsDto);

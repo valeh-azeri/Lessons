@@ -26,9 +26,6 @@ namespace EduSys.Service.Validations
                .InclusiveBetween(1, int.MaxValue)
                .WithMessage("{PropertyName} must be greater then 0");
 
-            RuleFor(x => x.CategoryId)
-               .InclusiveBetween(1, int.MaxValue)
-               .WithMessage("{PropertyName} must be greater then 0");
         }
     }
 }

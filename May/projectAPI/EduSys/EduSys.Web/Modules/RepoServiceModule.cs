@@ -1,24 +1,22 @@
-﻿using Module =Autofac.Module;
-using System.Reflection;
-using EduSys.Repository;
-using EduSys.Service.Mapping;
-using Autofac;
-using EduSys.Repository.UnitOfWork;
+﻿using Autofac;
+using EduSys.Core.Repositories;
+using EduSys.Core.Services;
 using EduSys.Core.UnitOfWorks;
 using EduSys.Repository.Repositories;
-using EduSys.Core.Repositories;
+using EduSys.Repository.UnitOfWork;
+using EduSys.Repository;
+using EduSys.Service.Mapping;
 using EduSys.Service.Services;
-using EduSys.Core.Services;
-using EduSys.Caching;
+using System.Reflection;
 
-namespace EduSys.API.Modules
+namespace EduSys.Web.Modules
 {
-    public class RepoServiceModule : Module
+    public class RepoServiceModules : Autofac.Module 
     {
         protected override void Load(ContainerBuilder builder)
         {
-            var apiAssembly= Assembly.GetExecutingAssembly();   
-            var repoAssembly= Assembly.GetAssembly(typeof(AppDbContext));
+            var apiAssembly = Assembly.GetExecutingAssembly();
+            var repoAssembly = Assembly.GetAssembly(typeof(AppDbContext));
             var serviceAssembly = Assembly.GetAssembly(typeof(MapProfile));
 
             builder.RegisterAssemblyTypes(apiAssembly, repoAssembly, serviceAssembly)
@@ -31,8 +29,8 @@ namespace EduSys.API.Modules
                 .AsImplementedInterfaces()
                 .InstancePerLifetimeScope();
 
-            //builder.RegisterType<ProductServiceWithCaching>().As<IProductService>();
             
+
             builder.RegisterGeneric(typeof(GenericRepository<>))
                 .As(typeof(IGenericRepository<>))
                 .InstancePerLifetimeScope();
@@ -45,3 +43,4 @@ namespace EduSys.API.Modules
         }
     }
 }
+
