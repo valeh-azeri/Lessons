@@ -41,7 +41,14 @@ namespace EduSys.API.Modules
                .As(typeof(IService<>))
                .InstancePerLifetimeScope();
 
-            builder.RegisterType<UnitOfWork>().As<IUnitOfWork>();
+
+            builder.RegisterGeneric(typeof(ServiceWithDto<,>))
+               .As(typeof(IServiceWithDto<,>))
+               .InstancePerLifetimeScope();
+
+            builder.RegisterType<UnitOfWork>().As<IUnitOfWork>().InstancePerLifetimeScope();
+
+            builder.RegisterType<ProductServiceWithDto>().As<IProductServiceWithDto>().InstancePerLifetimeScope();
         }
     }
 }
